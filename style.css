@@ -1,113 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
-*
-{
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+    padding: 0px;
     margin: 0;
-    box-sizing: border-box;
-}
-/* for every default element you can use "*" */
-
-body
-{
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    padding-bottom: 58px;/**/
-    min-height: 100vh;/**/
 }
 
-header
-{
-    text-align: center;
-    background: rgb(51,51,51);
-background: linear-gradient(0deg, rgba(51,51,51,1) 0%, rgba(0,0,0,1) 100%);
-    color: #fff;
-    padding: 50px;
-}
-
-header h1
-{
-    font-size: 48px;
-    margin-top: 30px;
-    color: yellow;
-    font-family: 'Hahmlet', serif;
-}
-
-header p
-{
-    font-size: 28px;
+#HeadBox {
     color: aliceblue;
-    font-family: 'Hahmlet', serif;
 }
 
-main
-{
-    width: 90vw;
-    margin: 0 auto;
-    padding: 30px 20px;
-    /* min-height: calc(100vh - 217px - 58px); */
-    /* this is the way to keep the footer at the bottom */
-    font-family: 'Hahmlet', serif;
-}
+#Heading {
 
-footer
-{
+    font-size: 60px;
+    padding: 10px 0 10px 0;
+    margin: 0;
     text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    font-family: 'Hahmlet', serif;
+    color: white;
+    background-color: rgb(47, 47, 54);
 }
 
-.navbar
-{
-    background-color: rgb(14, 14, 14);
+#subhed {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#navbar {
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbox {
+    padding: 0px;
+    margin: 0px;
+    background: #1b1b1b;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
-.link
-{
+.navicon {
+    margin: 20px;
     text-decoration: none;
-    color: #fff;
-    text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-family: 'Hahmlet', serif;
+    font-size: 20px;
+    color: aliceblue;
 }
 
-.videos
-{
-    text-align: center;
-}
-.videoH2
-{
-    font-family: 'Hahmlet', serif;
-    /* margin-left: 30px; */
+#socials {
+    padding: 20px 0 0 20px;
 }
 
-.viddescription
-{
-    font-family:  'Hahmlet', serif;
+#prTi {
+    font-size: 20px;
+    padding: 10px 20px 20px 0;
 }
 
-main h1
-{
-    font-size:medium;
-}
+#prDe {
 
-.contactlink
-{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;  
-}
-
-.welcome
-{
-    font-size: larger;
+    font-size: 15px;
 }
