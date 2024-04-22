@@ -1,66 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
-
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
 }
 
 body {
-    padding: 0px;
-    margin: 0;
+    background-color: #322C2B;
 }
 
-#HeadBox {
-    color: aliceblue;
-}
-
-#Heading {
-
-    font-size: 60px;
-    padding: 10px 0 10px 0;
-    margin: 0;
+nav {
     text-align: center;
-    color: white;
-    background-color: rgb(47, 47, 54);
-}
-
-#subhed {
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: center;
+    display: flex;
 }
 
 
 #navbar {
-    padding: 0px;
-    margin: 0px;
-}
-
-#navbox {
-    padding: 0px;
-    margin: 0px;
-    background: #1b1b1b;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #803D3B;
+    width: 75%;
     text-align: center;
+    border-radius: 20px;
+    padding: 20px 0 20px 0;
+    margin: 20px 0 0 0;
 }
 
-.navicon {
-    margin: 20px;
+.navlink {
+    font-size: 100%;
     text-decoration: none;
-    font-size: 20px;
-    color: aliceblue;
+    color: #E4C59E;
 }
 
-#socials {
-    padding: 20px 0 0 20px;
+.activeNavLink {
+    color: #322C2B;
 }
 
-#prTi {
-    font-size: 20px;
-    padding: 10px 20px 20px 0;
+#right {
+
+    padding: 0 0 100% 0;
+    text-align: right;
 }
 
-#prDe {
 
-    font-size: 15px;
+#rightinside {
+    width: 50%;
+    background-color: #E4C59E;
+}
+
+#intro {
+    background-color: #803D3B;
+    margin: 20px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+#intro h2 {
+    padding: 10px 0 0 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #803D3B;
+    color: #E4C59E;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+/* for socials.html */
+
+#schead {
+    text-align: center;
+    color: #E4C59E;
+    padding: 20px 0 20px 0;
+    background-color: #803D3B;
+    border-radius: 0 0 20px 20px;
+    margin: 0 0 20px 0;
+}
+
+#link {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    background-color: #803D3B;
+    text-align: center;
+    width: 75%;
+    padding: 20px 0 20px 0;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+
+}
+
+.linktext {
+    font-size: 100%;
+    color: #E4C59E;
+    text-decoration: none;
+    /* background-color: red; */
 }
